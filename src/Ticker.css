@@ -1,0 +1,18 @@
+.loading-box {
+  text-align: center;
+}
+
+.ticker-box {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2,1fr);
+  padding: 1rem;
+}
+
+@media (max-width: 570px) {
+  .ticker-box {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
